@@ -1,0 +1,12 @@
+F:\weatherAPI\src\main\java\pl\psweatherapi\models\IWeatherObserver.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\models\Utils.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\models\WeatherModel.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\Main.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\controllers\GraphController.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\models\MysqlConnector.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\models\dao\WeatherDao.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\models\dao\impl\WeatherDaoImpl.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\models\WeatherInfo.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\models\services\WeatherService.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\controllers\Controller.java
+F:\weatherAPI\src\main\java\pl\psweatherapi\models\Config.java

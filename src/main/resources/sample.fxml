@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.psweatherapi.controllers.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane fx:id="buttonGraph" prefHeight="300.0" prefWidth="356.0">
+         <children>
+            <Button fx:id="buttonSend" layoutX="152.0" layoutY="244.0" mnemonicParsing="false" text="Send" />
+            <TextField fx:id="textCity" layoutX="39.0" layoutY="125.0" prefHeight="25.0" prefWidth="285.0" promptText="enter city name" />
+            <Label fx:id="textWeather" layoutX="76.0" layoutY="47.0" prefHeight="38.0" prefWidth="277.0" text="Label" textAlignment="CENTER" AnchorPane.rightAnchor="42.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ProgressIndicator fx:id="progressIndi" layoutX="26.0" layoutY="40.0" prefHeight="52.0" prefWidth="62.0" />
+            <Button fx:id="buttonChart" layoutX="288.0" layoutY="244.0" mnemonicParsing="false" text="Graph" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
